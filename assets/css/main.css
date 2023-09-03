@@ -3020,6 +3020,7 @@ input, select, textarea {
 
 		table td {
 			padding: 0.75rem 0.75rem;
+			text-align: center;
 		}
 
 		table th {
@@ -3029,7 +3030,7 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: 1.5;
 			padding: 0 0.75rem 0.75rem 0.75rem;
-			text-align: left;
+			text-align: center;
 			text-transform: uppercase;
 		}
 
@@ -3079,7 +3080,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-		table tbody tr:nth-child(2n + 1) {
+		table.alt tbody tr:nth-child(2n + 1) {
 			background-color: rgba(220, 220, 220, 0.25);
 		}
 
